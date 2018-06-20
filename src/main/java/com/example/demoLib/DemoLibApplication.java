@@ -15,8 +15,6 @@ import java.util.TimeZone;
 
 @SpringBootConfiguration
 @EnableAutoConfiguration
-@ComponentScan( excludeFilters = {
-		@ComponentScan.Filter(type = FilterType.REGEX, pattern = { "com\\.safeway\\.app\\.ppapshr\\.cache\\..*" }) })
 @PropertySource(value = { "classpath:/FaultCodes.properties"})
 public class DemoLibApplication {
 	/**
