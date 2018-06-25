@@ -1,4 +1,4 @@
-package com.example.demoLib.exceiption;
+package com.example.demoLib.exception;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
